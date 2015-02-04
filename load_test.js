@@ -7,6 +7,6 @@ mdown.init(function (Meteor) {
 });
 
 mdown.run({
-  concurrency: 15,
+  concurrency: 5,
   url: 'http://104.236.216.226'
 });
