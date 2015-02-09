@@ -6,6 +6,6 @@ meteorDown.init(function (Meteor) {
 
 meteorDown.run({
   concurrency: 10,
-  url: 'http://localhost:8080'
-  // url: 'http://104.236.243.101'
+  // url: 'http://localhost:8080'
+  url: 'http://104.236.243.101'
 });
