@@ -9,3 +9,5 @@ insecure
 meteorhacks:cluster
 meteorhacks:unblock
 meteorhacks:kadira
+accounts-password
+meteorhacks:meteor-down

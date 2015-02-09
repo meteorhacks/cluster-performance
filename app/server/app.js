@@ -8,5 +8,16 @@ if(!Posts.findOne()) {
 
 Meteor.publish("posts", function() {
   this.unblock();
+  if(!this.userId) throw new Error(401, "aiyppp");
+
   return Posts.find();
+});
+
+Meteor.methods({
+  aa: function() {
+    var sessionId = this.connection.id;
+    var session = Meteor.server.sessions[sessionId];
+    console.log(session);
+    session.userId = 'coolio';
+  }
 });

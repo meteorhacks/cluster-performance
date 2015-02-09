@@ -1,12 +1,11 @@
-require('http').globalAgent.maxSockets = 999999;
-
-mdown.init(function (Meteor) {
+meteorDown.init(function (Meteor) {
   Meteor.subscribe('posts', function() {
     Meteor.kill();
+    console.log(Meteor.collections['posts']);
   });
 });
 
-mdown.run({
+meteorDown.run({
   concurrency: 5,
-  url: 'http://104.236.216.226'
+  url: 'http://104.236.243.101'
 });
