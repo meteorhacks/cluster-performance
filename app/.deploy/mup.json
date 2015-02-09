@@ -4,7 +4,10 @@
     {
       "host": "104.236.243.101",
       "username": "root",
-      "pem": "~/.ssh/id_rsa"
+      "pem": "~/.ssh/id_rsa",
+      "env": {
+        "CLUSTER_BALANCER_URL": "http://104.236.243.101"
+      }
     }
     // {
     //   "host": "104.236.216.226",
