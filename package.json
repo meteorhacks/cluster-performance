@@ -3,14 +3,11 @@
   "version": "2.2.0",
   "description": "Performance testing for cluster",
   "scripts": {
-    "start": "node_modules/.bin/mdown load_test.js"
-  },
-  "bin": {
-    "mdown": "./bin/mdown.js"
+    "start": "node_modules/.bin/meteor-down load_test.js"
   },
   "author": "Meteorhacks",
   "dependencies": {
-    "meteor-down": "*"
+    "meteor-down": "2.2.x"
   },
   "engines": {
     "node": "0.10.x"

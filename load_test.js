@@ -1,7 +1,6 @@
 meteorDown.init(function (Meteor) {
   Meteor.subscribe('posts', function() {
     Meteor.kill();
-    console.log(Meteor.collections['posts']);
   });
 });
 
