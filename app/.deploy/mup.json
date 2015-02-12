@@ -2,22 +2,84 @@
   // Server authentication info
   "servers": [
     {
-      "host": "104.236.243.101",
+      "host": "104.236.246.62",
       "username": "root",
       "pem": "~/.ssh/id_rsa",
       "env": {
-        "CLUSTER_BALANCER_URL": "http://104.236.243.101"
+        "CLUSTER_BALANCER_URL": "http://104.236.246.62"
       }
     }
     // {
     //   "host": "104.236.216.226",
     //   "username": "root",
-    //   "pem": "~/.ssh/id_rsa"
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.216.226"
+    //   }
+    // },
+    // {
+    //   "host": "104.131.182.168",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.131.182.168"
+    //   }
     // },
     // {
     //   "host": "104.236.216.225",
     //   "username": "root",
-    //   "pem": "~/.ssh/id_rsa"
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.216.225"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.243.101",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.243.101"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.69.80",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.69.80"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.86.49",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.86.49"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.32.45",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.32.45"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.222.160",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.222.160"
+    //   }
+    // },
+    // {
+    //   "host": "104.236.54.81",
+    //   "username": "root",
+    //   "pem": "~/.ssh/id_rsa",
+    //   "env": {
+    //     "CLUSTER_BALANCER_URL": "http://104.236.54.81"
+    //   }
     // }
   ],
 
