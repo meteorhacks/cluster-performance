@@ -14,7 +14,7 @@ Let's look at each individually.
 This app resides on the `app` directory. It's very basic app sending 200kB amount of data when a client subscribed. We've added `meteorhacks:cluster` package into that as well. You can deploy it as an usual Meteor app. 
 
 > We are using [Meteor Up](https://github.com/arunoda/meteor-up) to deploy this. Sample Meteor Up configuration is in the  `app/.deploy` directory. But it's okay to deploy in way you like.
-> If you are trying to deploy this app with Docker. Try [MeteorD](https://github.com/meteorhacks/meteord).
+> If you are trying to deploy this app with Docker, try [MeteorD](https://github.com/meteorhacks/meteord).
 > 
 
 There are few modes we can run cluster. Here are they:
