@@ -1,6 +1,6 @@
 # Cluster Performance Testing Setup
 
-This is the performance testing setup used to load test [Cluster](https://github.com/meteorhacks/cluster) and measure it's peroformance. You can read this blog post to get a high level overview of what going on here.
+This is the performance testing setup used to load test [Cluster](https://github.com/meteorhacks/cluster) and measure it's peroformance. You can read [this blog post](https://github.com/meteorhacks/cluster-performance) to get a high level overview of what going on here.
 
 In this repo, we've two components.
 
