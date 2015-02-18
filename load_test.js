@@ -5,7 +5,7 @@ meteorDown.init(function (Meteor) {
 });
 
 // This is a URL of a single server
-var entryPoint = "http://104.236.246.62";
+var entryPoint = "http://104.236.243.100:80";
 
 meteorDown.run({
   concurrency: 10,

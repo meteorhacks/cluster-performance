@@ -10,3 +10,9 @@ Meteor.publish("posts", function() {
   this.unblock();
   return Posts.find();
 });
+
+Meteor.methods({
+  getWorkerId: function() {
+    return process.env['CLUSTER_WORKER_ID'];
+  }
+});
