@@ -41,7 +41,7 @@
   // Configure environment
   "env": {
     "ROOT_URL": "http://myapp.com",
-    "CLUSTER_WORKERS_COUNT": 2
+    "CLUSTER_WORKERS_COUNT": 0
     // "CLUSTER_DISCOVERY_URL": "mongodb://user:password@c11.capital.2.mongolayer.com:10011,c11.capital.3.mongolayer.com:10011/cluster-perf?replicaSet=set-5411eb3c8429a32180000259",
     // "CLUSTER_SERVICE": "web"
   },
